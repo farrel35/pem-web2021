@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Belajar Form</title>
+</head>
+
+<body>
+    <center>
+        <h2>FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+        <form action="proses.php" method="post" name="fcontoh">
+            <table width="50%" border="1">
+                <tr>
+                    <td>
+                        <h4>INFO PENDAFTARAN</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="fnisn">NISN:</label></td>
+                    <td><input type="number" id="fnisn" name="fnisn" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fsekolah">ASAL SEKOLAH:</label></td>
+                    <td><input type="text" id="fsekolah" name="fsekolah" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fthlulus">TAHUN LULUS:</label></td>
+                    <td><input type="number" id="fthlulus" name="fthlulus" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>DATA CALON PESERTA</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fnama">NAMA LENGKAP:</label></td>
+                    <td><input type="text" id="fnama" name="fnama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fnik">NIK:</label></td>
+                    <td><input type="number" id="fnik" name="fnik" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fttl">Tempat/Tanggal Lahir:</label></td>
+                    <td><input type="text" id="fttl" name="fttl" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fkelamin">Jenis Kelamin:</label></td>
+                    <td><select id="fkelamin" name="fkelamin" required>
+                    <option value="">::Pilih Jenis Kelamin::</option>
+                    <option value="L">Laki - Laki</option>
+                    <option value="P">Perempuan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="falamat">Alamat:</label></td>
+                    <td><textarea name="falamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="fdesa">Desa/Kel.:</label></td>
+                    <td><input type="text" id="fdesa" name="fdesa" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fkec">Kecamatan:</label></td>
+                    <td><input type="text" id="fkec" name="fkec" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fkab">Kabupaten:</label></td>
+                    <td><input type="text" id="fkab" name="fkab" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fprov">Provinsi:</label></td>
+                    <td><input type="text" id="fprov" name="fprov" required></td>
+                </tr>
+                <tr>
+                    <td><label for="femail">Email Aktif:</label></td>
+                    <td><input type="email" id="femail" name="femail" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>DATA ORANG TUA</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fnokk">Nomor Kartu Keluarga:</label></td>
+                    <td><input type="number" id="fnokk" name="fnokk" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fnamaayah">Nama Ayah Kandung:</label></td>
+                    <td><input type="text" id="fnamaayah" name="fnamaayah" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fagamaayah">Agama:</label></td>
+                    <td><input type="text" id="fagamaayah" name="fagamaayah" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fpekerjaanayah">Pekerjaan:</label></td>
+                    <td><input type="text" id="fpekerjaanayah" name="fpekerjaanayah" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fnamaibu">Nama Ibu Kandung:</label></td>
+                    <td><input type="text" id="fnamaibu" name="fnamaibu" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fagamaibu">Agama:</label></td>
+                    <td><input type="text" id="fagamaibu" name="fagamaibu" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fpekerjaanibu">Pekerjaan:</label></td>
+                    <td><input type="text" id="fpekerjaanibu" name="fpekerjaanibu" required></td>
+                </tr>
+                <tr>
+                    <td><label for="falamatortu">Alamat:</label></td>
+                    <td><textarea name="falamatortu"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="fdesaortu">Desa/Kel.:</label></td>
+                    <td><input type="text" id="fdesaortu" name="fdesaortu" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fkecortu">Kecamatan:</label></td>
+                    <td><input type="text" id="fkecortu" name="fkecortu" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fkabortu">Kabupaten:</label></td>
+                    <td><input type="text" id="fkabortu" name="fkabortu" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fprovortu">Provinsi:</label></td>
+                    <td><input type="text" id="fprovortu" name="fprovortu" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right"><input type="submit" name="fsubmit" value="Kirim/Simpan"></td>
+                </tr>
+            </table>
+
+        </form>
+    </center>
+</body>
+
+</html>
